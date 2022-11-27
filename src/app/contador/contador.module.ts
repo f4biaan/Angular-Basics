@@ -9,6 +9,8 @@ import { ContadorComponent } from './contador/contador.component';
   exports: [
     ContadorComponent
   ],
-  imports: []
+  imports: [
+    CommonModule
+  ]
 })
 export class ContadorModule { }
