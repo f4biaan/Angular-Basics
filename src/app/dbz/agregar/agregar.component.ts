@@ -19,7 +19,8 @@ export class AgregarComponent {
       return;
     }
 
-    // console.log(this.nuevo);
+    // debugger; // breackpoint
+    console.log(this.nuevo);
     this.onNuevoPersonaje.emit(this.nuevo);
 
     this.nuevo = {
